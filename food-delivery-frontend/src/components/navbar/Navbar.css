@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: rgb(200, 118, 118);
+    font-size: 18px;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 18px;
+    align-items:center;
+}
+
+.navbar-right button{
+    color: gray;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid tomato;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-right button:hover{
+    background-color: beige
+}
+
+.navbar-menu .active{
+    padding-bottom: 2px;
+    border-bottom: 1px solid orange; 
+}
+
+.navbar-menu li{
+    cursor: pointer;
+}
+
+.navbar-basket-icon{
+    position: relative;
+}
+
+.navbar-basket-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color:tomato;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px
+}
