@@ -1,7 +1,7 @@
 import "./home.css"
-import Header from "../../components/header/Header"
-import ExploreMenu from "../../components/exploreMenu/ExploreMenu"
-
+import Header from "../../Components/Header/Header"
+import ExploreMenu from "../../Components/ExploreMenu/ExploreMenu"
+import FoodDisplay from "../../Components/FoodDisplay/FoodDisplay"
 import {useState} from "react"
 
 const Home = () => {
@@ -9,8 +9,9 @@ const Home = () => {
     return(
         <div>
             <h2>homepge</h2>
-            <Header/>
+            {/* <Header/> */}
             <ExploreMenu category= {category} setCategory= {setCategory}/>
+            <FoodDisplay category= {category} />
         </div>
     )
 }
