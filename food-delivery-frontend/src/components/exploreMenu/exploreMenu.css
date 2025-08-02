@@ -41,7 +41,7 @@
     cursor: pointer;
     margin-top: 10px;
     font-size: max(1.4vw, 16px);
-    color: blueviolet;
+    color: rgb(102, 230, 102);
 }
 
 .explore-menu hr {
